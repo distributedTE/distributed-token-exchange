@@ -1,0 +1,68 @@
+@import '~antd/dist/antd.css';
+
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  color: white;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.greenButton {
+  color: #468c46;
+  background: #f5f5f5;
+  border-color: #d9d9d9;
+}
+
+.greenButton:hover {
+  color: white;
+  background-color: #468c46;
+  border: 0px;
+}
+
+.formItem {
+  margin-bottom: 0px;
+}
+
+.ant-btn-danger {
+  color: #c31922;
+}
+
+.ant-btn-danger:hover {
+  background-color: #c31922;
+  border: 0px;
+}
+
+.ant-menu-dark ul.ant-menu-inline.ant-menu-sub {
+  background: white;
+  box-shadow: 0 0px;
+}
+
+.ant-menu-dark .ant-menu-item {
+  color: #9c9b9b;
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  color: black;
+}
+
+.ant-menu-inline .ant-menu-submenu-title {
+  font-size: 17px;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+  background-color: #153452;
+  color: white;
+}
+
+.sellRow {
+  color: #c31922;
+}
+
+.buyRow {
+  color: #468c46;
+}
