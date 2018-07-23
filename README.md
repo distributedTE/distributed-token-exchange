@@ -21,11 +21,11 @@ ganache-cli
 cd CryptoExchange
 truffle migrate
 
-yarn link
+npm/yarn link
 cd app
-yarn install
-yarn link "distributed-token-exchange"
-yarn start
+npm/yarn install
+npm/yarn link "distributed-token-exchange"
+npm/yarn start
 ```
 
 - Open the app at http://localhost:3000
@@ -36,7 +36,7 @@ yarn start
 ganache-cli
 
 cd CryptoExchange
-npm install
+npm/yarn install
 truffle test
 ```
 
